@@ -1,0 +1,15 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=PiPDU controller daemon
+
+[Service]
+Environment=PYTHONUNBUFFERED=true
+Environment=PYTHONPATH=/usr/local/lib/python2.7/site-packages
+ExecStart=/usr/bin/python /usr/local/bin/pipdu.py
+User=pipdu
+Group=pipdu
+Type=notify
+Restart=on-failure
+

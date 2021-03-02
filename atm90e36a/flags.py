@@ -1,0 +1,97 @@
+
+#                   1111110000000000
+#                   5432109876543210
+#                   HHHHHHHHLLLLLLLL
+# reserved          1000000000000000
+# reserved          0100000000000000
+MMode0_I1I3Swap = 0b0010000000000000
+MMode0_Freq60Hz = 0b0001000000000000
+MMode0_HPFOff   = 0b0000100000000000
+MMode0_didtEn   = 0b0000010000000000
+MMode0_001LSB   = 0b0000001000000000
+MMode0_3P3W     = 0b0000000100000000
+MMode0_CF2varh  = 0b0000000010000000
+MMode0_CF2ESV   = 0b0000000001000000
+# reserved          0000000000100000
+MMode0_ABSEnQ   = 0b0000000000010000
+MMode0_ABSEnP   = 0b0000000000001000
+MMode0_EnPA     = 0b0000000000000100
+MMode0_EnPB     = 0b0000000000000010
+MMode0_EnPC     = 0b0000000000000001
+
+#                           1111110000000000
+#                           5432109876543210
+#                           HHHHHHHHLLLLLLLL
+MMode1_DPGA_GAIN_1      = 0b0000000000000000
+MMode1_DPGA_GAIN_2      = 0b0100000000000000
+MMode1_DPGA_GAIN_4      = 0b1000000000000000
+MMode1_DPGA_GAIN_8      = 0b1100000000000000
+MMode1_PGA_GAIN_V3_1x   = 0b0000000000000000
+MMode1_PGA_GAIN_V3_2x   = 0b0001000000000000
+MMode1_PGA_GAIN_V3_4x   = 0b0010000000000000
+MMode1_PGA_GAIN_V2_1x   = 0b0000000000000000
+MMode1_PGA_GAIN_V2_2x   = 0b0000010000000000
+MMode1_PGA_GAIN_V2_4x   = 0b0000100000000000
+MMode1_PGA_GAIN_V1_1x   = 0b0000000000000000
+MMode1_PGA_GAIN_V1_2x   = 0b0000000100000000
+MMode1_PGA_GAIN_V1_4x   = 0b0000001000000000
+MMode1_PGA_GAIN_I4_1x   = 0b0000000000000000
+MMode1_PGA_GAIN_I4_2x   = 0b0000000001000000
+MMode1_PGA_GAIN_I4_4x   = 0b0000000010000000
+MMode1_PGA_GAIN_I3_1x   = 0b0000000000000000
+MMode1_PGA_GAIN_I3_2x   = 0b0000000000010000
+MMode1_PGA_GAIN_I3_4x   = 0b0000000000100000
+MMode1_PGA_GAIN_I2_1x   = 0b0000000000000000
+MMode1_PGA_GAIN_I2_2x   = 0b0000000000000100
+MMode1_PGA_GAIN_I2_4x   = 0b0000000000001000
+MMode1_PGA_GAIN_I1_1x   = 0b0000000000000000
+MMode1_PGA_GAIN_I1_2x   = 0b0000000000000001
+MMode1_PGA_GAIN_I1_4x   = 0b0000000000000010
+
+#                          1111110000000000
+#                          5432109876543210
+#                          HHHHHHHHLLLLLLLL
+# reserved                 1000000000000000
+SysStatus0_CS0Err      = 0b0100000000000000
+# reserved                 0010000000000000
+SysStatus0_CS1Err      = 0b0001000000000000
+# reserved                 0000100000000000
+SysStatus0_CS2Err      = 0b0000010000000000
+# reserved                 0000001000000000
+SysStatus0_CS3Err      = 0b0000000100000000
+SysStatus0_URevWn      = 0b0000000010000000
+SysStatus0_IRevWn      = 0b0000000001000000
+# reserved                 0000000000100000
+# reserved                 0000000000010000
+SysStatus0_SagWarn     = 0b0000000000001000
+SysStatus0_PhaseLoseWn = 0b0000000000000100
+# reserved                 0000000000000010
+# reserved                 0000000000000001
+
+StartupVal_PowerUp     = 0x6886
+StartupVal_Calibration = 0x5678
+StartupVal_Operation   = 0x8765
+
+PM_Idle            = 0b00
+PM_Detection       = 0b01
+PM_PMeasurement    = 0b10
+PM_Normal          = 0b11
+
+DFTConfig_HanningDisable    = 0b1000000000000000
+
+DFTConfig_VScaleC_Shift = 13
+DFTConfig_VScaleB_Shift = 11
+DFTConfig_VScaleA_Shift = 9
+
+DFTConfig_IScaleC_Shift = 6
+DFTConfig_IScaleB_Shift = 3
+DFTConfig_IScaleA_Shift = 0
+
+DFTCtrl_Disable = 0
+DFTCtrl_Enable  = 1
+
+TempSensorConfigStart   = 0xAA55
+TempSensorConfigValA    = 0x5122
+TempSensorConfigValB    = 0x012B
+TempSensorConfigEnd     = 0x0000
+

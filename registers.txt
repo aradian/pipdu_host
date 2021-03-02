@@ -1,0 +1,211 @@
+RegAddr_SoftReset 	0x00
+RegAddr_SysStatus0 	0x01
+RegAddr_SysStatus1 	0x02
+RegAddr_FuncEn0  	0x03
+RegAddr_FuncEn1  	0x04
+RegAddr_ZXConfig 	0x07
+RegAddr_SagTh    	0x08
+RegAddr_PhaseLossTh 	0x09
+RegAddr_INWarnTh0 	0x0A
+RegAddr_INWarnTh1 	0x0B
+RegAddr_THDNUTh  	0x0C
+RegAddr_THDNITh  	0x0D
+RegAddr_DMACtrl  	0x0E
+RegAddr_LastSPIData 	0x0F
+
+	Low Power Mode Register 
+RegAddr_DetectCtrl 	0x10
+RegAddr_DetectTh1 	0x11
+RegAddr_DetectTh2 	0x12
+RegAddr_DetectTh3 	0x13
+RegAddr_PMOffsetA 	0x14
+RegAddr_PMOffsetB 	0x15
+RegAddr_PMOffsetC 	0x16
+RegAddr_PMPGA    	0x17
+RegAddr_PMIrmsA  	0x18
+RegAddr_PMIrmsB  	0x19
+RegAddr_PMIrmsC  	0x1A
+RegAddr_PMConfig 	0x1B
+RegAddr_PMAvgSamples 	0x1C
+RegAddr_PMIrmsLSB 	0x1D
+	
+ 	ConfigStart 	0x30
+RegAddr_PLconstH 	0x31
+RegAddr_PLconstL 	0x32
+RegAddr_MMode0  	0x33
+RegAddr_MMode1  	0x34
+RegAddr_PStartTh 	0x35
+RegAddr_QStartTh 	0x36
+RegAddr_SStartTh 	0x37
+RegAddr_PPhaseTh	0x38
+RegAddr_QPhaseTh 	0x39
+RegAddr_SPhaseTh 	0x3A
+RegAddr_CS0     	0x3B
+
+	Calibration Registers 
+RegAddr_CalStart 	0x40
+RegAddr_PoffsetA 	0x41
+RegAddr_QoffsetA 	0x42
+RegAddr_POffsetB 	0x43
+RegAddr_QOffsetB 	0x44
+RegAddr_POffsetC 	0x45
+RegAddr_QOffsetC	0x46
+RegAddr_GainA 	0x47
+RegAddr_PhiA 	0x48
+RegAddr_GainB 	0x49
+RegAddr_PhiB 	0x4A
+RegAddr_GainC 	0x4B
+RegAddr_PhiC 	0x4C
+RegAddr_CS1  	0x4D
+
+	Fundamental/Harmonic Energy Calibration regis ters 
+RegAddr_HarmStart 	0x50
+RegAddr_POffsetAF 	0x51
+RegAddr_POffsetBF 	0x52
+RegAddr_POffsetCF 	0x53
+RegAddr_PGainAF 	0x54
+RegAddr_PGainBF 	0x55
+RegAddr_PGainCF 	0x56
+RegAddr_CS2   	0x57
+
+	Measurement Calibration 
+RegAddr_AdjStart 	0x60
+RegAddr_UgainA 	0x61
+RegAddr_IgainA 	0x62
+RegAddr_UoffsetA 	0x63
+RegAddr_IoffsetA 	0x64
+RegAddr_UgainB 	0x65
+RegAddr_IgainB 	0x66
+RegAddr_UoffsetB 	0x67
+RegAddr_IoffsetB 	0x68
+RegAddr_UgainC 	0x69
+RegAddr_IgainC 	0x6A
+RegAddr_UoffsetC 	0x6B
+RegAddr_IoffsetC 	0x6C
+RegAddr_IgainN 	0x6D
+RegAddr_IoffsetN 	0x6E
+RegAddr_CS3  	0x6F
+
+	Energy Register 
+RegAddr_APenergyT 	0x80
+RegAddr_APenergyA 	0x81
+RegAddr_APenergyB 	0x82
+RegAddr_APenergyC 	0x83
+RegAddr_ANenergyT 	0x84
+RegAddr_ANenergyA 	0x85
+RegAddr_ANenergyB 	0x86
+RegAddr_ANenergyC 	0x87
+RegAddr_RPenergyT 	0x88
+RegAddr_RPenergyA 	0x89
+RegAddr_RPenergyB 	0x8A
+RegAddr_RPenergyC 	0x8B
+RegAddr_RNenergyT 	0x8C
+RegAddr_RNenergyA 	0x8D
+RegAddr_RNenergyB 	0x8E
+RegAddr_RNenergyC 	0x8F
+RegAddr_SAenergyT 	0x90
+RegAddr_SenergyA 	0x91
+RegAddr_SenergyB 	0x92
+RegAddr_SenergyC 	0x93
+RegAddr_SVenergyT 	0x94
+RegAddr_EnStatus0 	0x95
+RegAddr_EnStatus1 	0x96
+RegAddr_SVmeanT 	0x98
+RegAddr_SVmeanTLSB 	0x99
+
+	Fundamental / Harmonic Energy Register 
+RegAddr_APenergyTF 	0xA0
+RegAddr_APenergyAF 	0xA1
+RegAddr_APenergyBF 	0xA2
+RegAddr_APenergyCF 	0xA3
+RegAddr_ANenergyTF 	0xA4
+RegAddr_ANenergyAF 	0xA5
+RegAddr_ANenergyBF 	0xA6
+RegAddr_ANenergyCF 	0xA7
+RegAddr_APenergyTH 	0xA8
+RegAddr_APenergyAH 	0xA9
+RegAddr_APenergyBH 	0xAA
+RegAddr_APenergyCH 	0xAB
+RegAddr_ANenergyTH 	0xAC
+RegAddr_ANenergyAH 	0xAD
+RegAddr_ANenergyBH 	0xAE
+RegAddr_ANenergyCH 	0xAF
+
+	0xPower and Power Factor Registers 
+RegAddr_PmeanT 	0xB0
+RegAddr_PmeanA 	0xB1
+RegAddr_PmeanB 	0xB2
+RegAddr_PmeanC 	0xB3
+RegAddr_QmeanT 	0xB4
+RegAddr_QmeanA 	0xB5
+RegAddr_QmeanB 	0xB6
+RegAddr_QmeanC 	0xB7
+RegAddr_SAmeanT 	0xB8
+RegAddr_SmeanA 	0xB9
+RegAddr_SmeanB 	0xBA
+RegAddr_SmeanC 	0xBB
+RegAddr_PFmeanT 	0xBC
+RegAddr_PFmeanA 	0xBD
+RegAddr_PFmeanB 	0xBE
+RegAddr_PFmeanC 	0xBF
+RegAddr_PmeanTLSB 	0xC0
+RegAddr_PmeanALSB 	0xC1
+RegAddr_PmeanBLSB 	0xC2
+RegAddr_PmeanCLSB 	0xC3
+RegAddr_QmeanTLSB 	0xC4
+RegAddr_QmeanALSB 	0xC5
+RegAddr_QmeanBLSB 	0xC6
+RegAddr_QmeanCLSB 	0xC7
+RegAddr_SAmeanTLSB 	0xC8
+RegAddr_SmeanALSB 	0xC9
+RegAddr_SmeanBLSB 	0xCA
+RegAddr_SmeanCLSB 	0xCB
+
+	Fundamental/ Harmonic Power and Voltage / Current RMS Registers 
+RegAddr_PmeanTF 	0xD0
+RegAddr_PmeanAF 	0xD1
+RegAddr_PmeanBF 	0xD2
+RegAddr_PmeanCF 	0xD3
+RegAddr_PmeanTH 	0xD4
+RegAddr_PmeanAH 	0xD5
+RegAddr_PmeanBH 	0xD6
+RegAddr_PmeanCH 	0xD7
+RegAddr_IrmsN1 	0xD8
+RegAddr_UrmsA  	0xD9
+RegAddr_UrmsB  	0xDA
+RegAddr_UrmsC  	0xDB
+RegAddr_IrmsN0 	0xDC
+RegAddr_IrmsA  	0xDD
+RegAddr_IrmsB  	0xDE
+RegAddr_IrmsC  	0xDF
+RegAddr_PmeanTFLSB 	0xE0
+RegAddr_PmeanAFLSB 	0xE1
+RegAddr_PmeanBFLSB 	0xE2
+RegAddr_PmeanCFLSB 	0xE3
+RegAddr_PmeanTHLSB 	0xE4
+RegAddr_PmeanAHLSB 	0xE5
+RegAddr_PmeanBHLSB 	0xE6
+RegAddr_PmeanCHLSB 	0xE7
+RegAddr_UrmsALSB 	0xE9
+RegAddr_UrmsBLSB 	0xEA
+RegAddr_UrmsCLSB 	0xEB
+RegAddr_IrmsALSB 	0xED
+RegAddr_IrmsBLSB 	0xEE
+RegAddr_IrmsCLSB 	0xEF
+
+	THD +N, Frequency, Angle and Temperature Regi sters 
+RegAddr_THDNUA 	0xF1
+RegAddr_THDNUB 	0xF2
+RegAddr_THDNUC 	0xF3
+RegAddr_THDNIA 	0xF5
+RegAddr_THDNIB 	0xF6
+RegAddr_THDNIC 	0xF7
+RegAddr_Freq	0xF8
+RegAddr_PAngleA 	0xF9
+RegAddr_PAngleB 	0xFA
+RegAddr_PAngleC 	0xFB
+RegAddr_Temp 	0xFC
+RegAddr_UangleA 	0xFD
+RegAddr_UangleB 	0xFE
+RegAddr_UangleC 	0xFF
+
